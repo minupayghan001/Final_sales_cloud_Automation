@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+=======
+<<<<<<< Updated upstream
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+>>>>>>> Stashed changes
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T10:08:38 IST" name="Default suite" finished-at="2022-03-09T10:09:28 IST" duration-ms="49658">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T10:08:38 IST" name="Default test" finished-at="2022-03-09T10:09:28 IST" duration-ms="49658">
+      <class name="testcases.ProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductPageTest@1ea9f6af]" started-at="2022-03-09T10:08:40 IST" name="setup" finished-at="2022-03-09T10:09:22 IST" duration-ms="41871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewProduct(java.lang.String,java.lang.String)[pri:0, instance:testcases.ProductPageTest@1ea9f6af]" started-at="2022-03-09T10:09:22 IST" name="createNewProduct" data-provider="getproductdata" finished-at="2022-03-09T10:09:27 IST" duration-ms="5663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wall paints]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+      </class> <!-- testcases.ProductPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T15:02:35 IST" name="Suitecheck" finished-at="2022-03-09T15:04:43 IST" duration-ms="128100">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T15:02:35 IST" name="Testcheck" finished-at="2022-03-09T15:04:43 IST" duration-ms="128100">
+      <class name="testcases.CampaignCreateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:02:36 IST" name="setup" finished-at="2022-03-09T15:02:57 IST" duration-ms="21582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCampaign(java.lang.String)[pri:1, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:02:57 IST" name="createCampaign" data-provider="getcampaigndata" finished-at="2022-03-09T15:03:25 IST" duration-ms="27972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RajColours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:03:25 IST" name="setup" finished-at="2022-03-09T15:04:00 IST" duration-ms="34730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCampaign(java.lang.String)[pri:1, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:04:00 IST" name="createCampaign" data-provider="getcampaigndata" finished-at="2022-03-09T15:04:14 IST" duration-ms="14543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NirmalColours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:04:14 IST" name="setup" finished-at="2022-03-09T15:04:35 IST" duration-ms="20157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCampaign(java.lang.String)[pri:1, instance:testcases.CampaignCreateTest@3427b02d]" started-at="2022-03-09T15:04:35 IST" name="createCampaign" data-provider="getcampaigndata" finished-at="2022-03-09T15:04:43 IST" duration-ms="8093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AsianColours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+      </class> <!-- testcases.CampaignCreateTest -->
+    </test> <!-- Testcheck -->
+  </suite> <!-- Suitecheck -->
+>>>>>>> Stashed changes
+</testng-results>
