@@ -1,3 +1,8 @@
+/*
+* author avanti
+*
+*/
+
 package com.sca.testcases;
 import org.apache.commons.mail.EmailException;
 import org.slf4j.Logger;
