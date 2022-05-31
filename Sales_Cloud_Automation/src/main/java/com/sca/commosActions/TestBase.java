@@ -63,24 +63,6 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
-
-	/* String readpropfile(String key) {
-			String value=null;
-			try {
-				Properties p=new Properties();
-				FileInputStream f=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\properties\\config.properties" );
-						//"C:\\Users\\avanti.joshi\\eclipse\\jee-2021-09\\eclipse\\Sales_Cloud_Automation\\src\\test\\java\\properties\\config.properties");
-				p.load(f);
-				value=p.getProperty(key)
-	;
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-
-			return value;
-		}*/
-
 	public void launch() {
 		WebDriverManager.chromedriver().setup();
 

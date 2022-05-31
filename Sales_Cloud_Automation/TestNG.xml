@@ -7,6 +7,7 @@
   <test thread-count="1" name="Testcheck">
     <classes>
       <class name="com.sca.testcases.AccountPageTest"/> 
+        <class name="com.sca.testcases.CasePageTest"/> 
    <!--   <class name="com.sca.testcases.ContractPageTest"/>-->
 
     </classes>

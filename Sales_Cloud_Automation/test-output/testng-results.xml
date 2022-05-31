@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-05T15:50:16 IST" name="Default suite" finished-at="2022-04-05T15:51:14 IST" duration-ms="57845">
+  <suite started-at="2022-05-24T22:58:45 IST" name="Default suite" finished-at="2022-05-24T22:59:57 IST" duration-ms="71770">
     <groups>
     </groups>
-    <test started-at="2022-04-05T15:50:16 IST" name="Default test" finished-at="2022-04-05T15:51:14 IST" duration-ms="57845">
+    <test started-at="2022-05-24T22:58:45 IST" name="Default test" finished-at="2022-05-24T22:59:57 IST" duration-ms="71770">
       <class name="com.sca.testcases.AccountPageTest">
-        <test-method is-config="true" signature="login()[pri:0, instance:com.sca.testcases.AccountPageTest@1700915]" started-at="2022-04-05T15:50:18 IST" name="login" finished-at="2022-04-05T15:50:53 IST" duration-ms="35143" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.sca.testcases.AccountPageTest@7fa98a66]" started-at="2022-05-24T22:58:47 IST" name="login" finished-at="2022-05-24T22:59:21 IST" duration-ms="33974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="craetenewacc(java.lang.String)[pri:0, instance:com.sca.testcases.AccountPageTest@1700915]" started-at="2022-04-05T15:50:53 IST" name="craetenewacc" data-provider="getAccountDetails" finished-at="2022-04-05T15:51:14 IST" duration-ms="20880" status="PASS">
+        <test-method signature="craetenewacc(java.lang.String)[pri:0, instance:com.sca.testcases.AccountPageTest@7fa98a66]" started-at="2022-05-24T22:59:21 IST" name="craetenewacc" data-provider="getAccountDetails" finished-at="2022-05-24T22:59:41 IST" duration-ms="20026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- craetenewacc -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sca.testcases.AccountPageTest@1700915]" started-at="2022-04-05T15:51:14 IST" name="tearDown" finished-at="2022-04-05T15:51:14 IST" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sca.testcases.AccountPageTest@7fa98a66]" started-at="2022-05-24T22:59:41 IST" name="tearDown" finished-at="2022-05-24T22:59:57 IST" duration-ms="16264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=craetenewacc status=SUCCESS method=AccountPageTest.craetenewacc(java.lang.String)[pri:0, instance:com.sca.testcases.AccountPageTest@7fa98a66] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
